@@ -1,2 +1,2 @@
-# ANCA
-Análise e Complexidade de Algoritmos
+# AnCA
+Repositório para a Disciplina de Análise e Complexidade de Algoritmos - IFES-SERRA 2021
