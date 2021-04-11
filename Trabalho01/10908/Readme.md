@@ -9,7 +9,7 @@ ___
 
 ___
 
-## **2) Resposta do Trabalho 01 | 2.1 - Busca Completa: 10908**
+## Resposta do Trabalho 01 | 2.1 - Busca Completa: 10908
 
 <br>
 
@@ -47,10 +47,10 @@ Algumas observações do problema:
 
 <br>
 
-### Análise da complexidade de tempo do programa desenvolvido
+### **2) Análise da complexidade de tempo do programa desenvolvido**
 Para encontrar a solução o programa usou como base a estratégia de Busca Completa (Força Bruta)(onde sua complexidade normalmente é de **O(n²)**, mas também foram necessárias outras codificações necessárias para completa o código. 
 
-Analisando o algoritmo foi identificado a complexidade de tempo desse programa sendo de grandeza **O(n²)**. A complexidade completa (reduzida) encontrada foi de **T(n) = (7.5 t q l² - 3.5 t q l + 7.5 t q  + 7t)**, desconsiderando algumas operações para a leitura do input. Onde:
+Analisando o algoritmo foi identificado a complexidade de tempo desse programa sendo de grandeza **O(n²)**. A complexidade completa (reduzida) encontrada foi de **T(n) = (7.5 t q l² - t q l + 8 t q  + 7t)**, desconsiderando algumas operações para a leitura do input. Onde:
 
 _**t**: Número de Casos de Testes_
 _**q**: Número de Testes de Ponto Centro_
@@ -60,7 +60,7 @@ $$
 \begin{equation} T(n) = 
 	\begin{cases} 
 			1 & \text{se}~n = 1 \\
-			 7,5 t q l^2 - 3,5 tql + 7,5tq + 7t & \text{caso contrário}
+			 7,5 t q l^2 - tql + 8tq + 7t & \text{caso contrário}
 	\end{cases}
 \end{equation}
 $$
@@ -82,7 +82,7 @@ A análise de complexidade pode ser vista abaixo.
 
 <br>
 
-![Complexidade](./11935-complexidade.png)
+![Complexidade](./10908-complexidade.png)
 
 <br>
 
